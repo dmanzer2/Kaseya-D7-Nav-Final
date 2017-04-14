@@ -96,6 +96,10 @@ a.feed-link:hover {
 	text-transform: none;
 }
 
+body.stretched #header.full-header .container {
+  border-bottom: 1px solid #eee;
+}
+
 #primary-menu.sub-title > ul > li > a span, #primary-menu.sub-title > div > ul > li > a span {
 	margin-top: 5px;
 }
@@ -409,17 +413,12 @@ h5.mailer-heading {
 	text-decoration: underline !important;
 }
 
-a.button.button-large.button-rounded.orange-button {
+a.button.button-3d.button-large.button-rounded.button-amber.lets-talk-btn {
 	font-family: 'Raleway', sans-serif !important;
 	background-color: #f49c14 !important;
 	border-color: #f49c14 !important;
 	font-size: 20px;
 	border-bottom: 3px solid rgba(0,0,0,0.15) !important;
-}
-
-a.button.button-large.button-rounded.orange-button:hover {
-	background-color: #fea720 !important;
-	border-color: #fea720 !important;
 }
 
 a.button.button-large.button-rounded.orange-button i {
