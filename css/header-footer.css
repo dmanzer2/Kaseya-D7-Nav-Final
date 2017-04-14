@@ -30469,9 +30469,13 @@ a.button.button-3d.button-large.button-rounded.button-amber.lets-talk-btn {
 	border-bottom: 3px solid rgba(0,0,0,0.15) !important;
 }
 
-a.button.button-large.button-rounded.orange-button i {
+a.button.button-3d.button-large.button-rounded.button-amber.lets-talk-btn i {
 	font-size: 26px !important;
 	padding-right: 25px !important;
+}
+
+header .button i {
+	font-size: 26px !important;
 }
 
 @media (max-width: 1199px) {
