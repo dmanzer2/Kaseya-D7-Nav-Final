@@ -99,7 +99,7 @@ dl, dt, dd, ol, ul, li {
 	margin: 0;
 	padding: 0;
 }
-
+/*
 .clear {
 	clear: both;
 	display: block;
@@ -114,7 +114,7 @@ dl, dt, dd, ol, ul, li {
 	background: #1ABC9C;
 	color: #FFF;
 	text-shadow: none;
-}
+}*/
 
 ::-moz-selection {
 	background: #1ABC9C; /* Firefox */
@@ -8685,7 +8685,7 @@ body:not(.device-touch) .social-icon i {
 .si-colored.si-android { background-color: #A4C639 !important; }
 .si-smashmag:hover,
 .si-colored.si-smashmag { background-color: #E53B2C !important; }
-.si-gplus:hover,
+.si-gplus:hover
 .si-colored.si-gplus { background-color: #DD4B39 !important; }
 .si-wikipedia:hover,
 .si-colored.si-wikipedia { background-color: #333 !important; }
