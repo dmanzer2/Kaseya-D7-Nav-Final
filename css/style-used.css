@@ -365,7 +365,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 #primary-menu ul li .mega-menu-content.style-2 ul li > a:hover { padding-left: 12px; }
 #primary-menu.sub-title > ul > li,
 #primary-menu.sub-title.style-2 > div > ul > li {
-	background: url("images/icons/menu-divider.png") no-repeat right center;
+	background: url("../images/icons/menu-divider.png") no-repeat right center;
 	margin-left: 1px;
 }
 #primary-menu.sub-title ul li:first-child {
@@ -749,7 +749,7 @@ body:not(.device-touch) #gotoTop {
 .widget_pages li a,
 .widget_rss li a,
 .widget_recent_comments li a {
-	background: url("images/icons/widget-link.png") left top no-repeat;
+	background: url("../images/icons/widget-link.png") left top no-repeat;
 	border: none !important;
 	color: #444;
 	font-size: 14px;
