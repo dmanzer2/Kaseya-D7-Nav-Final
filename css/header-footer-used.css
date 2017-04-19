@@ -2504,18 +2504,7 @@ li.mega-menu-product-title a div span {
     text-transform: capitalize;
 }
 
-.lets-talk-btn span {
-	display: inline !important;
-	margin-left: 20px;
-  font-size: 20px;
-	font-weight: 400;
-}
-
-.icon-comments {
-	font-size: 30px;
-}
-
-.mega-menu-title, .mega-menu-products-title {
+.mega-menu-title {
 	color: #34495e;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -2581,7 +2570,7 @@ li.mega-menu-product-title a div span {
 ----------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1308px) {
-	#primary-menu.sub-title > ul > li > a, #primary-menu.sub-title > div > ul > li > a {
+	#primary-menu.sub-title > ul > li > a {
 	    padding: 32px 14px 32px;
 	}
 }
@@ -2590,7 +2579,7 @@ li.mega-menu-product-title a div span {
 	.lets-talk-btn {
 		display: none;
 	}
-	#primary-menu.sub-title > ul > li > a, #primary-menu.sub-title > div > ul > li > a {
+	#primary-menu.sub-title > ul > li > a {
 	    padding: 32px 18px 32px;
 	}
 }
@@ -2614,9 +2603,6 @@ li.mega-menu-product-title a div span {
 		font-size: 12px;
 	}
 
-	#primary-menu > div > ul > li.current ul a {
-		color: #34495e;
-	}
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul ul a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover ul a {
 		font-size: 11px;
 		color: #34495e !important;
@@ -2638,9 +2624,6 @@ li.mega-menu-product-title a div span {
 		font-size: 12px;
 	}
 
-	#primary-menu > div > ul > li.current ul a {
-		color: #34495e;
-	}
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul ul a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover ul a {
 		font-size: 11px;
 		color: #34495e !important;
@@ -2652,7 +2635,7 @@ li.mega-menu-product-title a div span {
 
 ----------------------------------------------------------------*/
 
-#footer.dark, .dark #footer {
+#footer.dark {
     background-color: #34495e;
     color: #CCC;
     border-top-color: rgba(0,0,0,0.2);
@@ -2680,17 +2663,6 @@ li.mega-menu-product-title a div span {
 
 #footer .counter.counter-small + h5 {
     font-size: 12px;
-}
-
-#widget-subscribe-form .form-control::-moz-placeholder {
-  color: #8d8d8d;
-  opacity: 1;
-}
-#widget-subscribe-form .form-control:-ms-input-placeholder {
-  color: #8d8d8d;
-}
-#widget-subscribe-form .form-control::-webkit-input-placeholder {
-  color: #8d8d8d;
 }
 
 .copyrights-menu.copyright-links > a:hover {
